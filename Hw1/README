@@ -1,0 +1,14 @@
+1. Thomas Nemeh. September 14, 2018.
+
+2. 
+hello:
+	Prints outs various senteces using printf. Compile HelloWorld.c.
+rot128:
+	Encrypts files and user input using a rot-128 encryption algorithm. Compile rot128.c 
+diamond:
+	Prints on diamond with height based on first digit encountered in user input. Compile diamond.c
+ 
+3. No errors encountered.
+
+4. I have adhered to the Honor Code in this assignment 
+	-Thomas Nemeh

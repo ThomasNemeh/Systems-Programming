@@ -1,0 +1,19 @@
+1. Thomas Nemeh and Lukas Griffin
+
+2. 
+    additup.c: source code for our additup program
+    additup.1: man page for our program
+    makefile: our make file
+
+3. No known bugs, no errors or memory leaks on valgrind
+
+4. 10 hours
+
+5. An interesting thing about this program is that the adding function tkae the
+last node of the accumulator list and return the first node of the list,
+while the print function takes the first node of the accumulator and returns 
+the last node, allowing for a convenient interplay between the two functions.
+
+We would like to use one of our late days for this assignment. 
+
+We have adhered to the honor code in this assignment.

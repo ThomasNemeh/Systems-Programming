@@ -1,0 +1,29 @@
+.\" Man page for sort program for lab 6 of csci 241
+.\" Thomas Nemeh and Lukas Griffin - Fall 2018
+
+.TH sort.1 "12 November 2018" "CSCI 241" "Oberlin College"
+
+.SH NAME
+.B sort.1
+\- manpage for line_sort
+
+.SH SYNOPSIS
+.B ./line_sort [-f | -n | -r]
+
+.SH DESCRIPTION
+Sorting tool that uses the quicksort algorithm to sort based off of word value, number value, or word value in descending  order. Type of sorting implement is based off of user input handed through a flag.
+
+.SH OPTIONS
+.IP "-f"
+Prints and orders the contents of the file in alphabetized fashion without regard for capitalization.
+.IP "-n"
+Prints and orders the contents of the file with regard to the first number within the line. If no number is found or there are ties then it sorts based off of word.
+
+.IP "-r"
+Prints and orders the contents	of the file with regard	to the word value in a descending fashion.
+
+.SH AUTHOR
+Thomas Nemeh and Lukas Griffin(Fall 2018)
+
+.SH BUGS
+None!

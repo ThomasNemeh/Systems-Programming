@@ -1,0 +1,26 @@
+Lukas Griffin & Thomas Nemeh
+10/18/18
+
+Part One:
+freq.c reads in a text file and outputs the character frequency of each letter.
+
+Part Two:
+Creates two programs encode_bits, which recieves character input and returns a binary representation of it and decode_bits which recieves character input as a binary representation and then returns it as actual characters. 
+
+Part Three:
+
+Creates five functions, the first reads in an unsigned integer and returns a long. The second, third, fourth and fifth convert a sequence of integers to one of the four formats, binary, decimal, octal, or hexadecimal.
+
+
+getnum() reads the next sequence of chars that are in between 2 spaces. It determines that type of the number to be read, reads the number, and then returns the value of the number as a long. Binary has a leading '0b', hex has a leading '0x', octal has a leading '0', and decimal has no leading type signifier. When a sequence of chars beings with a '-', the program sets the 'negative' flag to 1(it is initially set at 0), and this instructs the user of getnum() to print a '-' when displaying the result of getnum(). When a sequence of chars is not in a valid number format, the program sets the 'error' flag to 1(it is initially set at 0), and this instructs the user of getnum() to indicate on the console that an error has occured. In the case of an error, the value return in MAX_LONG. 
+
+
+There are no compilation problems, warning or errors in our programs.  
+
+
+There are no valgrind errors in our programs.
+
+The entire lab took us 11 hours including the extra credit. Freq.c took us 2 hours. Bits.c took us about 3 hours. Tohex, todecimal, tooctal, and tobinary took us about 4 hours. Finally, the extra credit took us about 2 hours. 
+
+
+We have adhered to the Honor Code in this assignment.
